@@ -7,7 +7,7 @@ import (
 
 // stolen from go-nuts post by "Ostsol":
 type Size struct {
-	row, col, xpixel, ypixel uint16
+	Row, Col, Xpixel, Ypixel uint16
 }
 
 func Get() Size {
